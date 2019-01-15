@@ -1,0 +1,31 @@
+{
+  "name": "Jam",
+  "version": "0.1.0",
+  "description": "A simple static site generator.",
+  "scripts": {
+    "clean": "nps clean",
+    "nuke": "nps nuke",
+    "build": "nps build --no-scripts",
+    "dev": "nps dev --no-scripts",
+    "production": "nps production",
+    "release-patch": "nps release.patch",
+    "release-minor": "nps release.minor",
+    "release-major": "nps release.mjaor"
+  },
+  "author": "Mike Prince",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^8.6.5",
+    "browser-sync": "^2.26.3",
+    "chokidar-cli": "^1.2.1",
+    "clean-css-cli": "^4.2.1",
+    "nps": "^5.9.3",
+    "poststylus": "^1.0.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "rollup": "^0.60.7",
+    "rucksack-css": "^1.0.2",
+    "sanitize.css": "^8.0.0",
+    "stylus": "^0.54.5",
+    "uglify-js": "^3.4.9"
+  }
+}

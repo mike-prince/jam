@@ -1,0 +1,19 @@
+doctype html
+html(lang='en-GB').no-js
+
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+
+  block title
+
+  link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans')
+  link(rel='stylesheet' href='assets/main.css')
+
+  body
+    #page(v-cloak)
+      block content
+
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.min.js')
+    script(src='assets/main.js')
